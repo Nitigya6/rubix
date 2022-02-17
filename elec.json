@@ -1,0 +1,188 @@
+{
+    "ELEC_NEM_SUMMARY": [
+        {
+            "SETTLEMENTDATE": "2022-02-03T10:55:00",
+            "REGIONID": "NSW1",
+            "PRICE": 70.19,
+            "TOTALDEMAND": 7145.15,
+            "NETINTERCHANGE": -53.53,
+            "SCHEDULEDGENERATION": 5075.31526,
+            "SEMISCHEDULEDGENERATION": 1957.27474,
+            "INTERCONNECTORFLOWS": "[{\"name\":\"N-Q-MNSP1\", \"value\":-94.27732, \"exportlimit\":-94.27732, \"importlimit\":-173.50000}, {\"name\":\"NSW1-QLD1\", \"value\":545.82236, \"exportlimit\":545.82236, \"importlimit\":-1028.41199}, {\"name\":\"VIC1-NSW1\", \"value\":564.10545, \"exportlimit\":564.10546, \"importlimit\":-1347.56642}]"
+        },
+        {
+            "SETTLEMENTDATE": "2022-02-03T10:55:00",
+            "REGIONID": "QLD1",
+            "PRICE": 195.99,
+            "TOTALDEMAND": 7766.48,
+            "NETINTERCHANGE": -420.93,
+            "SCHEDULEDGENERATION": 6170.9356,
+            "SEMISCHEDULEDGENERATION": 1144.0044,
+            "INTERCONNECTORFLOWS": "[{\"name\":\"N-Q-MNSP1\", \"value\":-94.27732, \"exportlimit\":-94.27732, \"importlimit\":-173.50000}, {\"name\":\"NSW1-QLD1\", \"value\":545.82236, \"exportlimit\":545.82236, \"importlimit\":-1028.41199}]"
+        },
+        {
+            "SETTLEMENTDATE": "2022-02-03T10:55:00",
+            "REGIONID": "SA1",
+            "PRICE": -35.95,
+            "TOTALDEMAND": 934.53,
+            "NETINTERCHANGE": 284.38,
+            "SCHEDULEDGENERATION": 79.9998,
+            "SEMISCHEDULEDGENERATION": 1126.5902,
+            "INTERCONNECTORFLOWS": "[{\"name\":\"V-SA\", \"value\":-420.00000, \"exportlimit\":284.98546, \"importlimit\":-420.00000}, {\"name\":\"V-S-MNSP1\", \"value\":147.93735, \"exportlimit\":147.93735, \"importlimit\":147.93735}]"
+        },
+        {
+            "SETTLEMENTDATE": "2022-02-03T10:55:00",
+            "REGIONID": "TAS1",
+            "PRICE": 53.25,
+            "TOTALDEMAND": 1082.51,
+            "NETINTERCHANGE": -439.0,
+            "SCHEDULEDGENERATION": 537.085,
+            "SEMISCHEDULEDGENERATION": 106.425,
+            "INTERCONNECTORFLOWS": "[{\"name\":\"T-V-MNSP1\", \"value\":-439.00000, \"exportlimit\":-241.30002, \"importlimit\":-438.99682}]"
+        },
+        {
+            "SETTLEMENTDATE": "2022-02-03T10:55:00",
+            "REGIONID": "VIC1",
+            "PRICE": 5.12898,
+            "TOTALDEMAND": 4200.18,
+            "NETINTERCHANGE": 781.7,
+            "SCHEDULEDGENERATION": 2827.00465,
+            "SEMISCHEDULEDGENERATION": 2104.22535,
+            "INTERCONNECTORFLOWS": "[{\"name\":\"T-V-MNSP1\", \"value\":-439.00000, \"exportlimit\":-241.30002, \"importlimit\":-438.99682}, {\"name\":\"VIC1-NSW1\", \"value\":564.10545, \"exportlimit\":564.10546, \"importlimit\":-1347.56642}, {\"name\":\"V-SA\", \"value\":-420.00000, \"exportlimit\":284.98546, \"importlimit\":-420.00000}, {\"name\":\"V-S-MNSP1\", \"value\":147.93735, \"exportlimit\":147.93735, \"importlimit\":147.93735}]"
+        }
+    ],
+    "ELEC_NEM_SUMMARY_MARKET_NOTICE": [
+        {
+            "NOTICEID": 94464.0,
+            "EFFECTIVEDATE": "2022-02-02T23:54:35",
+            "EXTERNALREFERENCE": "Cancellation of a Non-Credible Contingency Event: Tarong - Chinchilla No.7168 132 kV line and Tarong - Chinchilla No.7183 132 kV line in QLD1 due to Lightning.",
+            "TYPEID": "RECLASSIFY CONTINGENCY",
+            "REASON": "AEMO ELECTRICITY MARKET NOTICE\r\n\r\nCancellation of reclassification of a Non-Credible Contingency Event as a Credible Contingency Event due to Lightning. AEMO considers the simultaneous trip of the following circuits is no longer reasonably possible. There is no longer any lightning activity in the vicinity of the following lines. Accordingly its classification has reverted to a non-credible contingency event.\r\n\r\nRegion: QLD1\r\n\r\nLines: Tarong - Chinchilla No.7168 132 kV and Tarong - Chinchilla No.7183 132 kV\r\n\r\nCancellation time: 02/02/2022 23:54\r\n\r\nConstraint set(s) revoked: \r\nNONE\r\n\r\nRefer AEMO Electricity Market Notice 94462\r\n\r\nAuto-generated on behalf of Manager NEM Real Time Operations\r"
+        },
+        {
+            "NOTICEID": 94463.0,
+            "EFFECTIVEDATE": "2022-02-02T20:39:35",
+            "EXTERNALREFERENCE": "Cancellation of a Non-Credible Contingency Event: Condabri Nth - Condabri Central 7400 132kV line and Condabri Nth - Condabri Central 7401 132kV line in QLD1 due to Lightning.",
+            "TYPEID": "RECLASSIFY CONTINGENCY",
+            "REASON": "AEMO ELECTRICITY MARKET NOTICE\r\n\r\nCancellation of reclassification of a Non-Credible Contingency Event as a Credible Contingency Event due to Lightning. AEMO considers the simultaneous trip of the following circuits is no longer reasonably possible. There is no longer any lightning activity in the vicinity of the following lines. Accordingly its classification has reverted to a non-credible contingency event.\r\n\r\nRegion: QLD1\r\n\r\nLines: Condabri Nth - Condabri Central 7400 132kV and Condabri Nth - Condabri Central 7401 132kV\r\n\r\nCancellation time: 02/02/2022 20:39\r\n\r\nConstraint set(s) revoked: \r\nNONE\r\n\r\nRefer AEMO Electricity Market Notice 94451\r\n\r\nAuto-generated on behalf of Manager NEM Real Time Operations\r"
+        },
+        {
+            "NOTICEID": 94462.0,
+            "EFFECTIVEDATE": "2022-02-02T19:52:40",
+            "EXTERNALREFERENCE": "Reclassification of a Non-Credible Contingency Event: Tarong - Chinchilla No.7168 132 kV line and Tarong - Chinchilla No.7183 132 kV line in QLD1 due to Lightning.",
+            "TYPEID": "RECLASSIFY CONTINGENCY",
+            "REASON": "AEMO ELECTRICITY MARKET NOTICE\r\n\r\nReclassification of a Non-Credible Contingency Event as a Credible Contingency Event due to Lightning. AEMO considers the simultaneous trip of the following circuits to now be more likely and reasonably possible. Accordingly AEMO has reclassified it as a credible contingency event.\r\n\r\nRegion: QLD1\r\n\r\nLines: Tarong - Chinchilla No.7168 132 kV and Tarong - Chinchilla No.7183 132 kV\r\n\r\nDuration: 02/02/2022 19:52 until further notice\r\n\r\nConstraint set(s) invoked:\r\nNONE\r\n\r\nAuto-generated on behalf of Manager NEM Real Time Operations\r"
+        },
+        {
+            "NOTICEID": 94461.0,
+            "EFFECTIVEDATE": "2022-02-02T19:19:35",
+            "EXTERNALREFERENCE": "Cancellation of a Non-Credible Contingency Event: Tarong - Chinchilla No.7168 132 kV line and Tarong - Chinchilla No.7183 132 kV line in QLD1 due to Lightning.",
+            "TYPEID": "RECLASSIFY CONTINGENCY",
+            "REASON": "AEMO ELECTRICITY MARKET NOTICE\r\n\r\nCancellation of reclassification of a Non-Credible Contingency Event as a Credible Contingency Event due to Lightning. AEMO considers the simultaneous trip of the following circuits is no longer reasonably possible. There is no longer any lightning activity in the vicinity of the following lines. Accordingly its classification has reverted to a non-credible contingency event.\r\n\r\nRegion: QLD1\r\n\r\nLines: Tarong - Chinchilla No.7168 132 kV and Tarong - Chinchilla No.7183 132 kV\r\n\r\nCancellation time: 02/02/2022 19:19\r\n\r\nConstraint set(s) revoked: \r\nNONE\r\n\r\nRefer AEMO Electricity Market Notice 94459\r\n\r\nAuto-generated on behalf of Manager NEM Real Time Operations\r"
+        },
+        {
+            "NOTICEID": 94460.0,
+            "EFFECTIVEDATE": "2022-02-02T19:09:35",
+            "EXTERNALREFERENCE": "Cancellation of a Non-Credible Contingency Event: Lismore - Dunoon 9U6 132kV line and Lismore - Dunoon 9U7 132kV line in NSW1 due to Lightning.",
+            "TYPEID": "RECLASSIFY CONTINGENCY",
+            "REASON": "AEMO ELECTRICITY MARKET NOTICE\r\n\r\nCancellation of reclassification of a Non-Credible Contingency Event as a Credible Contingency Event due to Lightning. AEMO considers the simultaneous trip of the following circuits is no longer reasonably possible. There is no longer any lightning activity in the vicinity of the following lines. Accordingly its classification has reverted to a non-credible contingency event.\r\n\r\nRegion: NSW1\r\n\r\nLines: Lismore - Dunoon 9U6 132kV and Lismore - Dunoon 9U7 132kV\r\n\r\nCancellation time: 02/02/2022 19:09\r\n\r\nConstraint set(s) revoked: \r\nNONE\r\n\r\nRefer AEMO Electricity Market Notice 94454\r\n\r\nAuto-generated on behalf of Manager NEM Real Time Operations\r"
+        },
+        {
+            "NOTICEID": 94459.0,
+            "EFFECTIVEDATE": "2022-02-02T17:14:10",
+            "EXTERNALREFERENCE": "Reclassification of a Non-Credible Contingency Event: Tarong - Chinchilla No.7168 132 kV line and Tarong - Chinchilla No.7183 132 kV line in QLD1 due to Lightning.",
+            "TYPEID": "RECLASSIFY CONTINGENCY",
+            "REASON": "AEMO ELECTRICITY MARKET NOTICE\r\n\r\nReclassification of a Non-Credible Contingency Event as a Credible Contingency Event due to Lightning. AEMO considers the simultaneous trip of the following circuits to now be more likely and reasonably possible. Accordingly AEMO has reclassified it as a credible contingency event.\r\n\r\nRegion: QLD1\r\n\r\nLines: Tarong - Chinchilla No.7168 132 kV and Tarong - Chinchilla No.7183 132 kV\r\n\r\nDuration: 02/02/2022 17:14 until further notice\r\n\r\nConstraint set(s) invoked:\r\nNONE\r\n\r\nAuto-generated on behalf of Manager NEM Real Time Operations\r"
+        },
+        {
+            "NOTICEID": 94458.0,
+            "EFFECTIVEDATE": "2022-02-02T17:12:24",
+            "EXTERNALREFERENCE": "Inter-regional transfer limit variation - Lismore 132 kV SVC - NSW region - 02/02/2022",
+            "TYPEID": "INTER-REGIONAL TRANSFER",
+            "REASON": "AEMO ELECTRICITY MARKET NOTICE\r\n\r\nAt 1658 hrs 02/02/2022 there was an unplanned outage of the Lismore 132 kV SVC.\r\n\r\nThe following constraint set invoked at 1705 hrs 02/02/2022\r\nN-LS_VC1\r\n\r\nThis constraint set contains equations with the following interconnectors on the LHS.\r\nN-Q-MNSP1\r\nNSW1 - QLD1\r\n  \r\nRefer to the AEMO Network Outage Scheduler for further information.\r\n\r\nManager NEM Real Time Operations"
+        },
+        {
+            "NOTICEID": 94457.0,
+            "EFFECTIVEDATE": "2022-02-02T17:15:05",
+            "EXTERNALREFERENCE": "Cancellation of Actual (LOR1) condition in the QLD region - 02/02/2022",
+            "TYPEID": "RESERVE NOTICE",
+            "REASON": "AEMO ELECTRICITY MARKET NOTICE\r\n \r\nCancellation of Actual (LOR1) condition in the QLD region - 02/02/2022 \r\n\r\nThe Actual LOR1 Condition in the QLD Region advised in AEMO Electricity Market Notice No.94456 is cancelled at 1655 hrs 02/02/2022.\r\n \r\nManager NEM Real Time Operations"
+        },
+        {
+            "NOTICEID": 94456.0,
+            "EFFECTIVEDATE": "2022-02-02T16:32:58",
+            "EXTERNALREFERENCE": "PDPASA - Update Forecast Lack Of Reserve Level 1 (LOR1) in the QLD Region on 02/02/2022",
+            "TYPEID": "RESERVE NOTICE",
+            "REASON": "AEMO ELECTRICITY MARKET NOTICE \r\n\r\nThe Forecast LOR1 condition in the QLD region advised in AEMO Electricity Market Notice No. 94448 has been updated at 1625 hrs to the following:\r\n\r\n\r\n[[1.] From 1730 hrs 02/02/2022 to 1900 hrs 02/02/2022. \r\nThe forecast capacity reserve requirement is 878 MW. \r\nThe minimum capacity reserve available is 810 MW.\r\n\r\n\r\nManager NEM Real Time Operations"
+        },
+        {
+            "NOTICEID": 94455.0,
+            "EFFECTIVEDATE": "2022-02-02T16:26:49",
+            "EXTERNALREFERENCE": "PDPASA - Cancellation of the Forecast Lack Of Reserve Level 2 (LOR2) in the QLD Region on 02/02/2022",
+            "TYPEID": "RESERVE NOTICE",
+            "REASON": "AEMO ELECTRICITY MARKET NOTICE\r\n\r\nThe Forecast LOR2 condition in the QLD region advised in AEMO Electricity Market Notice No.94446 is cancelled at 1625 hrs 02/02/2022   \r\n \r\nManager NEM Real Time Operations"
+        }
+    ],
+    "ELEC_NEM_SUMMARY_PRICES": [
+        {
+            "REGIONID": "VIC1",
+            "RRP": 5.12898,
+            "RAISEREGRRP": 9.61,
+            "LOWERREGRRP": 10.49,
+            "RAISE6SECRRP": 0.01,
+            "RAISE60SECRRP": 0.75,
+            "RAISE5MINRRP": 0.26,
+            "LOWER6SECRRP": 0.5,
+            "LOWER60SECRRP": 5.0,
+            "LOWER5MINRRP": 0.0
+        },
+        {
+            "REGIONID": "TAS1",
+            "RRP": 53.25,
+            "RAISEREGRRP": 10.25,
+            "LOWERREGRRP": 10.93,
+            "RAISE6SECRRP": 5.25803,
+            "RAISE60SECRRP": 1.73,
+            "RAISE5MINRRP": 0.9,
+            "LOWER6SECRRP": 3.5,
+            "LOWER60SECRRP": 0.9,
+            "LOWER5MINRRP": 0.44
+        },
+        {
+            "REGIONID": "SA1",
+            "RRP": -35.95,
+            "RAISEREGRRP": 9.61,
+            "LOWERREGRRP": 10.49,
+            "RAISE6SECRRP": 0.01,
+            "RAISE60SECRRP": 0.75,
+            "RAISE5MINRRP": 0.26,
+            "LOWER6SECRRP": 0.5,
+            "LOWER60SECRRP": 5.0,
+            "LOWER5MINRRP": 0.0
+        },
+        {
+            "REGIONID": "QLD1",
+            "RRP": 195.99,
+            "RAISEREGRRP": 9.61,
+            "LOWERREGRRP": 10.49,
+            "RAISE6SECRRP": 0.01,
+            "RAISE60SECRRP": 0.75,
+            "RAISE5MINRRP": 0.26,
+            "LOWER6SECRRP": 0.5,
+            "LOWER60SECRRP": 5.0,
+            "LOWER5MINRRP": 0.0
+        },
+        {
+            "REGIONID": "NSW1",
+            "RRP": 70.19,
+            "RAISEREGRRP": 9.61,
+            "LOWERREGRRP": 10.49,
+            "RAISE6SECRRP": 0.01,
+            "RAISE60SECRRP": 0.75,
+            "RAISE5MINRRP": 0.26,
+            "LOWER6SECRRP": 0.5,
+            "LOWER60SECRRP": 5.0,
+            "LOWER5MINRRP": 0.0
+        }
+    ]
+}
